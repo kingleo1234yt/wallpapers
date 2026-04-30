@@ -1,0 +1,41 @@
+/* Centers the whole group (Div + Text) on the screen */
+.screen-center {
+  display: flex;
+  justify-content: center; /* Horizontal center for the group */
+  align-items: center;     /* Vertical center for the group */
+  height: 100vh;
+  gap: 20px;               /* Space between the div and the text */
+  background-color: #ffff;
+
+  flex-direction: row-reverse;
+}
+
+/* Your custom sized div */
+.container {
+  width: 400px;
+  height: 300px;
+  background-color: #393B3D;
+  border: 2px solid white;
+}
+
+/* The text beside it */
+.side-text {
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  /* Since the parent is flex, this text automatically 
+     aligns vertically with the center of the container */
+}
+
+
+.centered-image{
+  width: 200px;
+  height: 300px
+}
+
+.lfc1{
+  background-image: linear-gradient(to bottom, rgb(241, 103, 103), rgb(0, 255, 242));
+  width: 100px;
+  height: 100px;
+
+}
